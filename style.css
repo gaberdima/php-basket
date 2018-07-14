@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #d2d2d2;
+}
+body{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.product{
+    background: #fff;
+    width: 320px;
+    height: 450px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 50px #555;
+    transition: all .3s;
+    border-radius: 7px;
+}
+.product:hover{
+    transform: scale(1.05);
+}
+.photo{
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+}
+.img{
+    display: block;
+    height: 100%;
+    max-width: auto;
+}
+.name{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-size: 19px;
+}
+.article{
+    text-align: center;
+}
+.description{
+    text-align: justify;
+    overflow: auto;
+    height: 100px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.buy{
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
